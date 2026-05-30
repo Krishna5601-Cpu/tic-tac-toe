@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>🎮 Tic Tac Toe Pro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>🎮 Tic Tac Toe Pro</h1>
+
+      <div class="player-inputs">
+        <input id="player1" placeholder="Player X Name" />
+        <input id="player2" placeholder="Player O Name" />
+        <button id="startBtn">Start Game</button>
+      </div>
+
+      <h2 id="status">Enter player names</h2>
+
+      <div class="scoreboard">
+        <span id="xScore">X: 0</span>
+        <span id="oScore">O: 0</span>
+        <span id="drawScore">Draws: 0</span>
+      </div>
+
+      <div id="board" class="board">
+        <button class="cell" data-index="0"></button>
+        <button class="cell" data-index="1"></button>
+        <button class="cell" data-index="2"></button>
+        <button class="cell" data-index="3"></button>
+        <button class="cell" data-index="4"></button>
+        <button class="cell" data-index="5"></button>
+        <button class="cell" data-index="6"></button>
+        <button class="cell" data-index="7"></button>
+        <button class="cell" data-index="8"></button>
+      </div>
+
+      <div class="actions">
+        <button id="restartBtn">🔄 Restart</button>
+        <button id="resetScoreBtn">🗑 Reset Scores</button>
+        <button id="statsBtn">📊 Statistics</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
